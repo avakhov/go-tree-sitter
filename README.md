@@ -1,7 +1,5 @@
 # go tree-sitter
 
-[![Build Status](https://github.com/smacker/go-tree-sitter/workflows/Test/badge.svg?branch=master)](https://github.com/smacker/go-tree-sitter/actions/workflows/test.yml?query=branch%3Amaster)
-[![GoDoc](https://godoc.org/github.com/smacker/go-tree-sitter?status.svg)](https://godoc.org/github.com/smacker/go-tree-sitter)
 
 Golang bindings for [tree-sitter](https://github.com/tree-sitter/tree-sitter)
 
@@ -14,8 +12,8 @@ import (
 	"context"
 	"fmt"
 
-	sitter "github.com/smacker/go-tree-sitter"
-	"github.com/smacker/go-tree-sitter/javascript"
+	sitter "github.com/avakhov/go-tree-sitter"
+	"github.com/avakhov/go-tree-sitter/javascript"
 )
 
 parser := sitter.NewParser()
@@ -47,8 +45,6 @@ fmt.Println(child.EndByte()) // 9
 This repository provides grammars for many common languages out of the box.
 
 But if you need support for any other language you can keep it inside your own project or publish it as a separate repository to share with the community. 
-
-See explanation on how to create a grammar for go-tree-sitter [here](https://github.com/smacker/go-tree-sitter/issues/57).
 
 Known external grammars:
 
