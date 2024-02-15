@@ -45,8 +45,8 @@
       "parser.c",
       "scanner.c"
     ],
-    "reference": "v0.19.0",
-    "revision": "9668e889161358d18a558f68f1614b6edde34029"
+    "reference": "v0.20.0",
+    "revision": "98c7b3dceb24f1ee17f1322f3947e55638251c37"
   },
   {
     "language": "cue",
@@ -56,7 +56,7 @@
       "scanner.c"
     ],
     "reference": "main",
-    "revision": "61843e3beebf19417e4fede4e8be4df1084317ad"
+    "revision": "2df92e6755337e9234ad18ffef37f35d95e2ba9d"
   },
   {
     "language": "dockerfile",
@@ -72,10 +72,10 @@
     "url": "https://github.com/elixir-lang/tree-sitter-elixir",
     "files": [
       "parser.c",
-      "scanner.cc"
+      "scanner.c"
     ],
-    "reference": "v0.1.0",
-    "revision": "869dff3ceb8823ca4b17ca33b663667c8e41e8ba"
+    "reference": "v0.1.1",
+    "revision": "11426c5fd20eef360d5ecaf10729191f6bc5d715"
   },
   {
     "language": "elm",
