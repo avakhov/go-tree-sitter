@@ -224,8 +224,8 @@
       "parser.c",
       "scanner.c"
     ],
-    "reference": "v0.20.3",
-    "revision": "0431a2c60828731f27491ee9fdefe25e250ce9c9"
+    "reference": "v0.20.4",
+    "revision": "afb6000a71fb9dff3f47f90d412ec080ae12bbb4"
   },
   {
     "language": "scala",
@@ -235,8 +235,8 @@
       "scanner.c",
       "stack.h"
     ],
-    "reference": "v0.19.1",
-    "revision": "918f0fb948405181707a1772cab639f2d278d384"
+    "reference": "v0.20.2",
+    "revision": "d50b6ca5cc3d925e3d1f497199cb8d8383ddae8a"
   },
   {
     "language": "svelte",
@@ -250,8 +250,8 @@
       "uthash.h",
       "vc_vector.h"
     ],
-    "reference": "v0.10.1",
-    "revision": "84c90ee15f851e1541c25c86e8a4338f5b4d5af2"
+    "reference": "v0.11.0",
+    "revision": "be7f2e7db1fc19f0852265ec60923fc058380739"
   },
   {
     "language": "toml",
