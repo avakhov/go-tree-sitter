@@ -82,10 +82,10 @@
     "url": "https://github.com/elm-tooling/tree-sitter-elm",
     "files": [
       "parser.c",
-      "scanner.cc"
+      "scanner.c"
     ],
-    "reference": "v5.6.3",
-    "revision": "cce0e5938e7779f86cf8bf445eadf7df4b88229d"
+    "reference": "v5.7.0",
+    "revision": "c26afd7f2316f689410a1622f1780eff054994b1"
   },
   {
     "language": "golang",
@@ -94,7 +94,7 @@
       "parser.c"
     ],
     "reference": "master",
-    "revision": "64457ea6b73ef5422ed1687178d4545c3e91334a"
+    "revision": "fd577c4358c28cbcb6748bbf65354cc85f1cf7a4"
   },
   {
     "language": "groovy",
@@ -114,7 +114,7 @@
       "scanner.c"
     ],
     "reference": "main",
-    "revision": "b5539065432c08e4118eb3ee7c94902fdda85708"
+    "revision": "e135399cb31b95fac0760b094556d1d5ce84acf0"
   },
   {
     "language": "html",
