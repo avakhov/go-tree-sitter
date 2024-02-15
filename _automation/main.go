@@ -232,8 +232,8 @@ func (s *UpdateService) downloadGrammar(ctx context.Context, g *Grammar) {
 	switch g.Language {
 	case "php":
 		s.downloadPhp(ctx, g)
-	// case "ocaml":
-	// 	s.downloadOcaml(ctx, g)
+	case "ocaml":
+		s.downloadOcaml(ctx, g)
 	// case "typescript":
 	// 	s.downloadTypescript(ctx, g)
 	// case "yaml":
@@ -356,9 +356,9 @@ func (s *UpdateService) downloadPhp(ctx context.Context, g *Grammar) {
 // ocaml is special since its folder structure is different from the other ones
 func (s *UpdateService) downloadOcaml(ctx context.Context, g *Grammar) {
 	fileMapping := map[string]string{
-		"parser.c":   "ocaml/src/parser.c",
-		"scanner.cc": "ocaml/src/scanner.cc",
-		"scanner.h":  "common/scanner.h",
+		"parser.c":  "ocaml/src/parser.c",
+		"scanner.c": "ocaml/src/scanner.c",
+		"scanner.h": "common/scanner.h",
 	}
 
 	url := g.ContentURL()
