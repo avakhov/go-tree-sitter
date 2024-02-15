@@ -230,12 +230,12 @@ func (s *UpdateService) downloadGrammar(ctx context.Context, g *Grammar) {
 	s.makeDir(ctx, g.Language)
 
 	switch g.Language {
-	case "ocaml":
-		s.downloadOcaml(ctx, g)
-	case "typescript":
-		s.downloadTypescript(ctx, g)
-	case "yaml":
-		s.downloadYaml(ctx, g)
+	// case "ocaml":
+	// 	s.downloadOcaml(ctx, g)
+	// case "typescript":
+	// 	s.downloadTypescript(ctx, g)
+	// case "yaml":
+	// 	s.downloadYaml(ctx, g)
 	default:
 		s.defaultGrammarDownload(ctx, g)
 	}
