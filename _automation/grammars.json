@@ -143,8 +143,8 @@
       "parser.c",
       "scanner.c"
     ],
-    "reference": "v0.20.1",
-    "revision": "f1e5a09b8d02f8209a68249c93f0ad647b228e6e"
+    "reference": "v0.20.3",
+    "revision": "6d84193ae2395e54b699d9b7358bcf66cbcc19f5"
   },
   {
     "language": "kotlin",
@@ -154,7 +154,7 @@
       "scanner.c"
     ],
     "reference": "main",
-    "revision": "cce9073807c6c1da81ce658d683fdac2878e5b57"
+    "revision": "4e909d6cc9ac96b4eaecb3fb538eaca48e9e9ee9"
   },
   {
     "language": "lua",
@@ -164,7 +164,7 @@
       "scanner.c"
     ],
     "reference": "master",
-    "revision": "0e860f697901c9b610104eb61d3812755d5211fc"
+    "revision": "5429f4ed6865c43fbfb07001ad9bfe33ec6e96db"
   },
   {
     "language": "ocaml",
