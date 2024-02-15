@@ -15,8 +15,8 @@
     "files": [
       "parser.c"
     ],
-    "reference": "v0.20.2",
-    "revision": "7175a6dd5fc1cee660dce6fe23f6043d75af424a"
+    "reference": "v0.20.8",
+    "revision": "25ca2718aacaf0feda8b0709471332f303a0cef5"
   },
   {
     "language": "csharp",
@@ -33,10 +33,10 @@
     "url": "https://github.com/tree-sitter/tree-sitter-cpp",
     "files": [
       "parser.c",
-      "scanner.cc"
+      "scanner.c"
     ],
-    "reference": "v0.20.0",
-    "revision": "f44509141e7e483323d2ec178f2d2e6c0fc041c1"
+    "reference": "v0.20.4",
+    "revision": "51da29228ea1d137d196edd1b41149f325cc6ecb"
   },
   {
     "language": "css",
